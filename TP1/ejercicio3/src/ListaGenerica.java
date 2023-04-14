@@ -17,13 +17,14 @@ public class ListaGenerica<T extends Comparable<T>> {
     }
 /*2*/
     public void obtenerLista(){
-        for (int iterador=0; iterador < listaEmpleados.size();iterador++){
-            System.out.println(listaEmpleados.toString());
+        int tamaniolista = listaEmpleados.size();
+        for (int iterador=0; iterador < tamaniolista;iterador++){
+            System.out.println(listaEmpleados.get(iterador));
         }
     }
     /*3*/
-    public int tamanio() {
-        return listaEmpleados.size();
+    public void tamanio() {
+        System.out.println("El tamaño de la lista es: " + listaEmpleados.size());
     }
     /*4*/
     public void agregarElementoPrimerPosicion(T empleado){
