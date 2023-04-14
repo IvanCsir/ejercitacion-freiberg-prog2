@@ -14,7 +14,7 @@ public class ListaGenerica<T extends Comparable<T>> {
 
     public void obtenerLista(){
         for (int iterador=0; iterador < listaEmpleados.size();iterador++){
-            System.out.println(listaEmpleados.toString());
+            System.out.println(listaEmpleados.get(iterador));
         }
     }
     public void tamanio() {
