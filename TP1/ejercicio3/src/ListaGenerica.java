@@ -38,33 +38,37 @@ public class ListaGenerica<T extends Comparable<T>> {
         Collections.shuffle(listaEmpleados);
     }
     /*7*/
-    public void agregarElementoIndice(int indice, T empleado) throws Exception{
-
-        try {
-            listaEmpleados.add(indice, empleado);
-        }
-        catch (IndexOutOfBoundsException e){
-            System.out.println("No existe esa posicion");
-            throw new RuntimeException();
-        }
-
+    public void agregarElementoIndice(int indice, T empleado) throws MiExcepcion {
+        if(indice > listaEmpleados.size() || listaEmpleados.isEmpty()){
+            throw new MiExcepcion("El índice indicado no pertenece al rango de la lista");}
+        listaEmpleados.add(indice, empleado);
     }
     /*8*/
-    public void devolverObjetoPosicion(int indice){
+    public void devolverObjetoPosicion(int indice) throws MiExcepcion{
+        if (indice < 0 || indice > listaEmpleados.size() || listaEmpleados.isEmpty()){
+            throw new MiExcepcion("No hay ningún objeto en la posición mencionada");}
         System.out.println( listaEmpleados.get(indice).toString());
     }
-    /*9*/
-    public void primerElemento(){
+      /*9*/
+    public void primerElemento() throws MiExcepcion{
         int indice = 0;
+        if (listaEmpleados.isEmpty())
+            throw new MiExcepcion("La lista está vacía");
         System.out.println(listaEmpleados.get(0));
     }
     /*10*/
-    public void ultimoElemento(){
+    public void ultimoElemento() throws MiExcepcion{
+        if (listaEmpleados.isEmpty()){
+            throw new MiExcepcion("La lista está vacia");
+        }
         int tamanioLista = listaEmpleados.size();
-        System.out.println(listaEmpleados.get(tamanioLista-1));
+        System.out.println(listaEmpleados.get(tamanioLista - 1));
     }
     /*11*/
-    public void borrarElemento(int indice){
-        listaEmpleados.remove(indice);
+    public void borrarElemento(int indice)
+        {listaEmpleados.remove(indice);
+    }
+    public void vaciarLista(){
+        listaEmpleados.clear();
     }
 }

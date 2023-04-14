@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09987c8e-8aaa-4e56-a14c-eab915dc01ab" name="Changes" comment="" />
+    <list default="true" id="cf55f97f-0d4f-409f-b134-649e4cc9b55c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TP1/ejercicio3/src/ListaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP1/ejercicio3/src/ListaGenerica.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +20,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2OKx2tcpeuswP9H9PrqaVb8S9Fq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2OFgUKfbnan0s7xupnMZvKtqse3" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -32,24 +34,24 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ivan/Escritorio/Facultad/Programación 2/ejercitacion-freiberg-prog2/TP1/ejercicio3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivan/Escritorio/Facultad/Programación 2/ejercitacion-freiberg-prog2/ejercicio2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09987c8e-8aaa-4e56-a14c-eab915dc01ab" name="Changes" comment="" />
-      <created>1681322872047</created>
+      <changelist id="cf55f97f-0d4f-409f-b134-649e4cc9b55c" name="Changes" comment="" />
+      <created>1681161760361</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681322872047</updated>
+      <updated>1681161760361</updated>
     </task>
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
