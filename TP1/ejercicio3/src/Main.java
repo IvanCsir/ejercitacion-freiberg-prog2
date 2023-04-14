@@ -37,6 +37,11 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
+        try{
+            listaEmpleados.borrarElemento(5);
+        }catch (MiExcepcion e){
+            System.out.println(e.getMessage());
+        }
 
     }
 }

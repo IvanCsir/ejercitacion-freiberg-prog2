@@ -66,8 +66,11 @@ public class ListaGenerica<T extends Comparable<T>> {
         System.out.println(listaEmpleados.get(tamanioLista - 1));
     }
     /*11*/
-    public void borrarElemento(int indice)
-        {listaEmpleados.remove(indice);
+    public void borrarElemento(int indice) throws MiExcepcion {
+        if(listaEmpleados.isEmpty() || indice < 0 || indice > listaEmpleados.size()){
+        throw new MiExcepcion("No existe elemento en la lista o la misma está vacia");
+        }
+        listaEmpleados.remove(indice);
     }
     public void vaciarLista(){
         listaEmpleados.clear();
