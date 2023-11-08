@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws MiExcepcion {
         ListaGenerica<Empleado> listaEmpleados = new ListaGenerica<Empleado>();
         Empleado empleado1 = new Empleado("Ivan", "Freiberg",4556,8);
         Empleado empleado2 = new Empleado("Juan", "Bolado", 4500, 10);
